@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Box</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+
+    <div class="chat-box">
+        <div class="messages">
+        </div>
+        <div class="input-area">
+            <input type="text" placeholder="Type your message...">
+            <button><img src="mic.png" alt="Microphone"></button>
+        </div>
+    </div>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .chat-box {
+            left: 70px;
+            position: fixed;
+            bottom: 20px;
+            width: 90%;
+            background-color: grey;
+            border-top: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .messages {
+            height: 200px;
+            overflow-y: auto;
+            padding: 10px;
+        }
+
+        .input-area {
+            display: flex;
+            padding: 25px;
+        }
+
+        input {
+            flex: 1;
+            padding: 20px;
+            font-size: large;
+            border: 3px solid #ccc;
+            border-radius: 10px 0 0 10px;
+        }
+
+        button {
+            padding: 10px 23px;
+            background-color: lightblue;
+            border: none;
+            color: white;
+            border-radius: 5px;
+
+        }
+
+        button:hover {
+            background-color: deepskyblue;
+            cursor: pointer;
+
+        }
+
+        button img {
+            width: 25px;
+            height: 25px;
+        }
+    </style>
+    
+</body>
+
+</html>
