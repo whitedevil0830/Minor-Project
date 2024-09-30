@@ -5,3 +5,5 @@
     - adding, deleting or modifying any item from the list
     - interacting with the user based on some predefined keywords (like what to respond when said "hello" & etc..)
 ### This list then is forwarded to algorithms like NN (Nearest Neighbour) and AntColony distance algorithms to predict and suggest the path including the places (from the list) that one needs to follow to travel optimally (based on time or money optimization)
+
+#### Go through the project as you like and enjoy speaking with your Jarvis (Remember it starts running the bot's services on calling Jarvis only...)
